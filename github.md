@@ -1,4 +1,20 @@
 ## Git  commands 
+
+### normal commands
+```
+1. git pull origin mein =>  merging code from main branch
+   Git pull =>  merging code from current branch only
+2. git commit -m “Initial commit” => first commit
+3. git push
+4. git switch => undo any changes you make and return to your previous branch
+   git switch {branch name} => undo any changes you make and return to selected branch
+5. git checkout => changing the branches.
+for moving the branches we can use -- `git switch` and `git chekcout` both
+```
+  
+
+
+
 ### 1.  `Get specific files/folder from another branch—`
 
   * Git fetch origin branch(remote branch) name ———  where we want the code 
