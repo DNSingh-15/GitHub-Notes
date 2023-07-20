@@ -68,7 +68,7 @@ Git log —oneline => git log —oneline command will give commit history in one
 ### 6. Get specific files/folder from another branch—
 ```
 1. git checkout branch name => Go to that branch where you to add the code 
-2. Git fetch origin branch-name =>  where we want the code
+2. Git fetch origin branch-name =>  from where we want the code
 3. Git checkout --patch origin dn-dev ./components/moleculs/press/   —— get the code form the press folder 
 4. Check the code and do y or n
 ```
