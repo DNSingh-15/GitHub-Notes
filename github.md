@@ -25,6 +25,8 @@ for moving the branches we can use -- `git switch` and `git chekcout` both
    ```
       git pull = git fetch + git merge
    ```
+### 1 (c) git reset --hard ORIG_HEAD
+     it is used for remove the current pull request that is not commited 
 
 ### 2. git log 
 ```
@@ -75,7 +77,7 @@ Git log —oneline => git log —oneline command will give commit history in one
 
 
 
-### 4. `Add another  remote repository`
+### 7. `Add another  remote repository`
   * git remote add origin ( repository HTTPS url  )  —— if origin is already exist then change origin with abc-origin
   * git remote -v 
   * Git fetch  or git fetch abc-origin
