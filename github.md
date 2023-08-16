@@ -59,6 +59,7 @@ Git log —oneline => git log —oneline command will give commit history in one
    Cherry picking is the act of picking a commit from a branch and applying it to another branch
    ```
   a.  git checkout brach-name ( where we want the commit )
+  b. git fetch origin dev ( branch name from where we want the code into our local branch )
   b.  git cherry-pick  commit-id	
    ```
 ### 5 (b). Merge Abort
