@@ -82,5 +82,13 @@ Git log —oneline => git log —oneline command will give commit history in one
   * git remote add origin ( repository HTTPS url  )  —— if origin is already exist then change origin with abc-origin
   * git remote -v 
   * Git fetch  or git fetch abc-origin
+
+### 8. (a) `create branch locally and remotely`
+   * git branch <branch-name>              => locally create branch
+   * git push -u origin <branch-name>      => remotely create branch and push the code
+
+### (b) `delete branch locally and remotely`
+   * git branch -d <branch-name>              => locally delete branch
+   * git push origin --delete <branch-name>   => remotely delete branch and push the code
     
 
