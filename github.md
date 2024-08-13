@@ -67,8 +67,16 @@ Git log —oneline => git log —oneline command will give commit history in one
      git merge —abort  => this command remove the latest changes 
    ```
 
+### 6 . synch issue => incomming and outgoing chnages in the same time 
 
-### 6. Get specific files/folder from another branch—
+```
+git fetch origin
+
+git merge origin/main
+
+```
+
+### 7. Get specific files/folder from another branch—
 ```
 1. git checkout branch name => Go to that branch where you to add the code 
 2. Git fetch origin branch-name =>  from where we want the code
